@@ -31,25 +31,25 @@
 **Serie A Grupo B/2**  
 | # control | Nombre                           | Correo Institucional                 | Rol          | Usuario en github |  
 | --------- | -------------------------------- | ------------------------------------ | ------------ | ----------------- |  
-| 0         | Camacho Hector                   | hector.camacho@tectijuana.edu.mx     | Documentador |                   |  
-| 0         | Hernandez Bocanegra Miguel Angel | miguel.hernandez@tectijuana.edu.mx   | Analista     |                   |  
-| 13211451  | Mendoza Muñoz Adrian             | adrian.mendoza@tectijuana.edu.mx     | Analista     |                   |  
-| 14212044  | Montoya Heredia Victor Jehovany  | victor.montoya@tectijuana.edu.mx     | Documentador |                   |  
-| 13211483  | Morales Bueno Damaris Eleanne    | damaris.morales17@tectijuana.edu.mx  | Diseñador    |                   |  
-| 13211447  | Navarro Mancillas Guillermo      | guillermo.navarro@tectijuana.edu.mx  | Programador  |                   |  
-| 11211238  | Ochoa Miguel Angel               | @tectijuana.edu.mx                   | Diseñador    |                   |  
-| 13210359  | Ortega Garcia Alonso             | alonso.ortega17@tectijuana.edu.mx    | Diseñador    |                   |  
-| 13211398  | Perez Castellanos Alma Karen     | alma.perez16@tectijuana.edu.mx       | Documentador |                   |  
-| 13211137  | Ramirez Vazquez Luis Fernando    | luis.ramirez@tectijuana.edu.mx       | Programador  |                   |  
-| 13211430  | Rosales Gutierrez Terius Emilio  | terius.rosales17@tectijuana.edu.mx   | Documentador |                   |  
+| 0         | Camacho Hector                   | hector.camacho@tectijuana.edu.mx     | Documentador | @                 |  
+| 0         | Hernandez Bocanegra Miguel Angel | miguel.hernandez@tectijuana.edu.mx   | Analista     | @                 |  
+| 13211451  | Mendoza Muñoz Adrian             | adrian.mendoza@tectijuana.edu.mx     | Analista     | @                 |  
+| 14212044  | Montoya Heredia Victor Jehovany  | victor.montoya@tectijuana.edu.mx     | Documentador | @                 |  
+| 13211483  | Morales Bueno Damaris Eleanne    | damaris.morales17@tectijuana.edu.mx  | Diseñador    | @                 |  
+| 13211447  | Navarro Mancillas Guillermo      | guillermo.navarro@tectijuana.edu.mx  | Programador  | @                 |  
+| 11211238  | Ochoa Miguel Angel               | @tectijuana.edu.mx                   | Diseñador    | @                 |  
+| 13210359  | Ortega Garcia Alonso             | alonso.ortega17@tectijuana.edu.mx    | Diseñador    | @                 |  
+| 13211398  | Perez Castellanos Alma Karen     | alma.perez16@tectijuana.edu.mx       | Documentador | @                 |  
+| 13211137  | Ramirez Vazquez Luis Fernando    | luis.ramirez@tectijuana.edu.mx       | Programador  | @                 |  
+| 13211430  | Rosales Gutierrez Terius Emilio  | terius.rosales17@tectijuana.edu.mx   | Documentador | @                 |  
 | 13211419  | Salcedo Morales Jose Manuel      | jose.salcedo@tectijuana.edu.mx       | Programador  | milkdoes          |  
-| 13211467  | Serrano Escalante Roberto        | roberto.serrano@tectijuana.edu.mx    | Analista     |                   |  
-| 14211481  | Sevilla Omaña Vanessa Itzayana   | vanessa.sevilla16@tectijuana.edu.mx  | Documentador |                   |  
-| 14210515  | Torres Martinez Alejandro        | alejandro.torres17@tectijuana.edu.mx | Diseñador    |                   |  
-| 13211440  | Verde Manjarrez Juan Carlos      | juan.verde@tectijuana.edu.mx         | Analista     |                   |  
-| 14212265  | Verdi Vega Evelyn                | evelin.verdi@tectijuana.edu.mx       | Diseñador    |                   |  
-| 14211493  | Villalobos Gamiño Julio          | julio.gamino@tectijuana.edu.mx       | Programador  |                   |  
-| 13211106  | Villegas Castillo Omar           | omar.villegas@tectijuana.edu.mx      | Programador  |                   |  
+| 13211467  | Serrano Escalante Roberto        | roberto.serrano@tectijuana.edu.mx    | Analista     | @                 |  
+| 14211481  | Sevilla Omaña Vanessa Itzayana   | vanessa.sevilla16@tectijuana.edu.mx  | Documentador | @                 |  
+| 14210515  | Torres Martinez Alejandro        | alejandro.torres17@tectijuana.edu.mx | Diseñador    | @                 |  
+| 13211440  | Verde Manjarrez Juan Carlos      | juan.verde@tectijuana.edu.mx         | Analista     | @                 |  
+| 14212265  | Verdi Vega Evelyn                | evelin.verdi@tectijuana.edu.mx       | Diseñador    | @                 |  
+| 14211493  | Villalobos Gamiño Julio          | julio.gamino@tectijuana.edu.mx       | Programador  | @                 |  
+| 13211106  | Villegas Castillo Omar           | omar.villegas@tectijuana.edu.mx      | Programador  | @                 |  
   
 # Instrucciones generales  
 Cada tarea se le asignara una rama propia. Pueden apoyar con otras ramas pero  
