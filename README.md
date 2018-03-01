@@ -29,27 +29,27 @@
   
 # Integrantes  
 **Serie A Grupo B/2**  
-| Numero de control | Nombre                           | Correo Institucional                 | Rol          | Usuario en github |  
-| ----------------- | -------------------------------- | ------------------------------------ | ------------ | ----------------- |  
-| 0                 | Camacho Hector                   | hector.camacho@tectijuana.edu.mx     | Documentador |                   |  
-| 0                 | Hernandez Bocanegra Miguel Angel | miguel.hernandez@tectijuana.edu.mx   | Analista     |                   |  
-| 13211451          | Mendoza Muñoz Adrian             | adrian.mendoza@tectijuana.edu.mx     | Analista     |                   |  
-| 14212044          | Montoya Heredia Victor Jehovany  | victor.montoya@tectijuana.edu.mx     | Documentador |                   |  
-| 13211483          | Morales Bueno Damaris Eleanne    | damaris.morales17@tectijuana.edu.mx  | Diseñador    |                   |  
-| 13211447          | Navarro Mancillas Guillermo      | guillermo.navarro@tectijuana.edu.mx  | Programador  |                   |  
-| 11211238          | Ochoa Miguel Angel               | @tectijuana.edu.mx                   | Diseñador    |                   |  
-| 13210359          | Ortega Garcia Alonso             | alonso.ortega17@tectijuana.edu.mx    | Diseñador    |                   |  
-| 13211398          | Perez Castellanos Alma Karen     | alma.perez16@tectijuana.edu.mx       | Documentador |                   |  
-| 13211137          | Ramirez Vazquez Luis Fernando    | luis.ramirez@tectijuana.edu.mx       | Programador  |                   |  
-| 13211430          | Rosales Gutierrez Terius Emilio  | terius.rosales17@tectijuana.edu.mx   | Documentador |                   |  
-| 13211419          | Salcedo Morales Jose Manuel      | jose.salcedo@tectijuana.edu.mx       | Programador  | milkdoes          |  
-| 13211467          | Serrano Escalante Roberto        | roberto.serrano@tectijuana.edu.mx    | Analista     |                   |  
-| 14211481          | Sevilla Omaña Vanessa Itzayana   | vanessa.sevilla16@tectijuana.edu.mx  | Documentador |                   |  
-| 14210515          | Torres Martinez Alejandro        | alejandro.torres17@tectijuana.edu.mx | Diseñador    |                   |  
-| 13211440          | Verde Manjarrez Juan Carlos      | juan.verde@tectijuana.edu.mx         | Analista     |                   |  
-| 14212265          | Verdi Vega Evelyn                | evelin.verdi@tectijuana.edu.mx       | Diseñador    |                   |  
-| 14211493          | Villalobos Gamiño Julio          | julio.gamino@tectijuana.edu.mx       | Programador  |                   |  
-| 13211106          | Villegas Castillo Omar           | omar.villegas@tectijuana.edu.mx      | Programador  |                   |  
+| Numero de control | Nombre                                  | Correo Institucional                 | Rol          | Usuario en github |  
+| ----------------- | --------------------------------------- | ------------------------------------ | ------------ | ----------------- |  
+| 0                 | Camacho Hector <br />                   | hector.camacho@tectijuana.edu.mx     | Documentador |                   |  
+| 0                 | Hernandez Bocanegra <br /> Miguel Angel | miguel.hernandez@tectijuana.edu.mx   | Analista     |                   |  
+| 13211451          | Mendoza Muñoz <br /> Adrian             | adrian.mendoza@tectijuana.edu.mx     | Analista     |                   |  
+| 14212044          | Montoya Heredia <br /> Victor Jehovany  | victor.montoya@tectijuana.edu.mx     | Documentador |                   |  
+| 13211483          | Morales Bueno <br /> Damaris Eleanne    | damaris.morales17@tectijuana.edu.mx  | Diseñador    |                   |  
+| 13211447          | Navarro Mancillas <br /> Guillermo      | guillermo.navarro@tectijuana.edu.mx  | Programador  |                   |  
+| 11211238          | Ochoa Miguel <br /> Angel               | @tectijuana.edu.mx                   | Diseñador    |                   |  
+| 13210359          | Ortega Garcia <br /> Alonso             | alonso.ortega17@tectijuana.edu.mx    | Diseñador    |                   |  
+| 13211398          | Perez Castellanos <br /> Alma Karen     | alma.perez16@tectijuana.edu.mx       | Documentador |                   |  
+| 13211137          | Ramirez Vazquez <br /> Luis Fernando    | luis.ramirez@tectijuana.edu.mx       | Programador  |                   |  
+| 13211430          | Rosales Gutierrez <br /> Terius Emilio  | terius.rosales17@tectijuana.edu.mx   | Documentador |                   |  
+| 13211419          | Salcedo Morales <br /> Jose Manuel      | jose.salcedo@tectijuana.edu.mx       | Programador  | milkdoes          |  
+| 13211467          | Serrano Escalante <br /> Roberto        | roberto.serrano@tectijuana.edu.mx    | Analista     |                   |  
+| 14211481          | Sevilla Omaña <br /> Vanessa Itzayana   | vanessa.sevilla16@tectijuana.edu.mx  | Documentador |                   |  
+| 14210515          | Torres Martinez <br /> Alejandro        | alejandro.torres17@tectijuana.edu.mx | Diseñador    |                   |  
+| 13211440          | Verde Manjarrez <br /> Juan Carlos      | juan.verde@tectijuana.edu.mx         | Analista     |                   |  
+| 14212265          | Verdi Vega <br /> Evelin                | evelin.verdi@tectijuana.edu.mx       | Diseñador    |                   |  
+| 14211493          | Villalobos <br /> Gamiño Julio          | julio.gamino@tectijuana.edu.mx       | Programador  |                   |  
+| 13211106          | Villegas <br /> Castillo Omar           | omar.villegas@tectijuana.edu.mx      | Programador  |                   |  
   
 # Instrucciones generales  
 Cada tarea se le asignara una rama propia. Pueden apoyar con otras ramas pero  
@@ -126,18 +126,22 @@ Estas en la rama de master?
 <pre>  
 -> Si  
 	**CON UN DEMONIO NO HAGAN PUSH A MASTER!** Hagan  
+</pre>  
 ```sh  
 git checkout <otra-rama>  
 git merge master  
 ```  
+<pre>  
 	Y despues pueden hacer el **push** a la rama distinta.  
 -> No  
 	Ya eres un colaborador en el repositorio?  
 	-> Si  
 		Haz  
+</pre>  
 ```sh  
 git pull  
 ```  
+<pre>  
 		Lee los mensajes de error (si salen), arregla los conflictos de  
 		merge y vulve a hacer push.  
 	-> No  
