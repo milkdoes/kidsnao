@@ -13,6 +13,7 @@
 
 * [Integrantes](#integrantes)
 * [Instrucciones generales](#instrucciones-generales)
+	* [Despues de clonar](#despues-de-clonar)
 	* [Uso de git](#uso-de-git)
 		* [Siempre bajar cambios antes de hacer algo](#siempre-bajar-cambios-antes-de-hacer-algo)
 		* [Revisando que cambios hiciste](#revisando-que-cambios-hiciste)
@@ -29,7 +30,7 @@
 # Integrantes  
 **Serie A Grupo B/2**  
 | Numero de control | Nombre                           | Correo Institucional                 | Rol          | Usuario en github |  
-|-------------------|----------------------------------|--------------------------------------|--------------|-------------------|  
+| ----------------- | -------------------------------- | ------------------------------------ | ------------ | ----------------- |  
 | 0                 | Camacho Hector                   | hector.camacho@tectijuana.edu.mx     | Documentador |                   |  
 | 0                 | Hernandez Bocanegra Miguel Angel | miguel.hernandez@tectijuana.edu.mx   | Analista     |                   |  
 | 13211451          | Mendoza Muñoz Adrian             | adrian.mendoza@tectijuana.edu.mx     | Analista     |                   |  
@@ -55,6 +56,15 @@ Cada tarea se le asignara una rama propia. Pueden apoyar con otras ramas pero
 sean considerados a los cambios que haran en la rama.  
 Por favor no descarguen el **zip** del repositorio, hagan `clone` para que  
 puedan hacer operaciones en git.  
+  
+## Despues de clonar  
+Inmediatamente cambiar a otra rama con  
+```sh  
+git branch <nombre-rama> origin/<nombre-rama>  
+git checkout <nombre-rama>  
+git pull  
+```  
+Esto para evitar que hagan cambios accidentales en master.  
   
   
 ## Uso de git  
