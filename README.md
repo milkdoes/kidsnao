@@ -139,24 +139,26 @@ Inteligencia artificial y el robot NAO para niños con TEA.
 ## Porque no puedo hacer **push**?  
 Estas en la rama de master?  
 -> Si  
-    **CON UN DEMONIO NO HAGAN PUSH A MASTER!** Hagan  
+&emsp;**CON UN DEMONIO NO HAGAN PUSH A MASTER!** Hagan  
 ```sh  
 git checkout <otra-rama>  
 git merge master  
 ```  
-    Y despues pueden hacer el **push** a la rama distinta.  
+  
+&emsp;Y despues pueden hacer el **push** a la rama distinta.  
 -> No  
-    Ya eres un colaborador en el repositorio?  
-    -> Si  
-        Haz  
+&emsp;Ya eres un colaborador en el repositorio?  
+&emsp;--> Si  
+&emsp;&emsp;Haz  
 ```sh  
 git pull  
 ```  
-        Lee los mensajes de error (si salen), arregla los conflictos de  
-        merge y vulve a hacer push.  
-    -> No  
-        Envia/Pide al administrador derechos de edicion (enviando tu usuario  
-        de github).  
+
+&emsp;&emsp;Lee los mensajes de error (si salen), arregla los conflictos de  
+&emsp;&emsp;merge y vulve a hacer push.  
+&emsp;--> No  
+&emsp;&emsp;Envia/Pide al administrador derechos de edicion (enviando tu usuario  
+&emsp;&emsp;de github).  
 ## Pasare la materia?  
 Primero colabora en los trabajos a realizar y luego te preguntas eso.  
 En si para comprobar su contribucion (si el profesor lo pide) se le pueden  
