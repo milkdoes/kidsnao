@@ -1,0 +1,40 @@
+@startuml
+' Participantes.
+actor "Niño" as ni
+actor "Nao" as nao
+entity "Computadora" as com
+actor "Involucrado" as inv
+entity "Pagina \n Web" as pw
+database "Base de \n datos" as bd
+
+==Durante sesion==
+autonumber
+group Principales participantes.
+	ni -> nao : Interactuar.
+	nao -> ni : "Dar un buen show."
+	nao -> nao : Tomar fotos.
+	nao -> nao : Guardar decisiones de los infantes \n (si se hicieron preguntas).
+end
+
+group Involucrados.
+	inv -> pw : Acceder.
+	pw -> inv : Mostrar interfaz.
+	inv -> pw : Dar inicio de sesion, definir infantes involucrados \n y otras personas involucradas.
+	pw -> bd : Guardar nueva sesion.
+	pw -> bd : Pedir resultados sobre infantes \n de sesiones previas.
+	bd -> pw : Retornar resultados de sesiones \n previas (si existen).
+	pw -> inv : Mostrar resultados de sesiones \n anteriores con los infantes \n (si existen sesiones anteriores con los involucrados).
+	inv -> pw : Guardar resultados de sesion actual.
+	pw -> bd : Guardar resultados de sesion actual.
+end
+
+==Despues de sesion==
+autonumber
+group Grabado de datos.
+	com -> nao : Pedir imagenes y archivos.
+	nao -> com : Enviar imagenes y archivos grabados.
+	com -> com : Procesar colores y figuras de imagenes.
+	com -> bd : Enviar decisiones tomadas por los infantes.
+end
+
+@enduml

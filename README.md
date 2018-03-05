@@ -46,7 +46,7 @@
 | 13211430  | Rosales Gutierrez Terius Emilio  | terius.rosales17@tectijuana.edu.mx   | Documentador | rosalesemilio     |  
 | 13211419  | Salcedo Morales Jose Manuel      | jose.salcedo@tectijuana.edu.mx       | Programador  | milkdoes          |  
 | 13211467  | Serrano Escalante Roberto        | roberto.serrano@tectijuana.edu.mx    | Analista     | roboserrano       |  
-| 14211481  | Sevilla Omaña Vanessa Itzayana   | vanessa.sevilla16@tectijuana.edu.mx  | Documentador | @                 |  
+| 14211481  | Sevilla Omaña Vanessa Itzayana   | vanessa.sevilla16@tectijuana.edu.mx  | Documentador | vanessasevilla16  |  
 | 14210515  | Torres Martinez Alejandro        | alejandro.torres17@tectijuana.edu.mx | Diseñador    | atorresmartinez   |  
 | 13211440  | Verde Manjarrez Juan Carlos      | juan.verde@tectijuana.edu.mx         | Analista     | CarlosVerde       |  
 | 14212265  | Verdi Vega Evelyn                | evelin.verdi@tectijuana.edu.mx       | Diseñador    | everdi            |  
@@ -153,7 +153,7 @@ git merge master
 ```sh  
 git pull  
 ```  
-
+  
 &emsp;&emsp;Lee los mensajes de error (si salen), arregla los conflictos de  
 &emsp;&emsp;merge y vulve a hacer push.  
 &emsp;--> No  
