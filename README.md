@@ -19,6 +19,8 @@
 		* [Revisando que cambios hiciste](#revisando-que-cambios-hiciste)
 		* [Subiendo cambios](#subiendo-cambios)
 		* [Extra](#extra)
+* [Pagina web](#pagina-web)
+* [Base de datos](#base-de-datos)
 * [Directorios](#directorios)
 * [Preguntas tal vez frecuentes (FAQ)](#preguntas-tal-vez-frecuentes-faq)
 	* [Que es esto?](#que-es-esto)
@@ -32,7 +34,7 @@
 | # control | Nombre                           | Correo Institucional                 | Rol          | Usuario en github |  
 | --------- | -------------------------------- | ------------------------------------ | ------------ | ----------------- |  
 | 0         | Camacho Hector                   | hector.camacho@tectijuana.edu.mx     | Documentador | hectorcave        |  
-| 0         | Hernandez Bocanegra Miguel Angel | miguel.hernandez@tectijuana.edu.mx   | Analista     | @                 |  
+| 0         | Hernandez Bocanegra Miguel Angel | miguel.hernandez@tectijuana.edu.mx   | Analista     | ISCMaiky          |  
 | 13211451  | Mendoza Muñoz Adrian             | adrian.mendoza@tectijuana.edu.mx     | Analista     | 4dri4n            |  
 | 14212044  | Montoya Heredia Victor Jehovany  | victor.montoya@tectijuana.edu.mx     | Documentador | jehovany2010      |  
 | 13211483  | Morales Bueno Damaris Eleanne    | damaris.morales17@tectijuana.edu.mx  | Diseñador    | DEleanne          |  
@@ -107,6 +109,19 @@ reset
 ```  
 Esto especialmente si vas a empujar cambios al servidor en la nube.  
   
+# Pagina web  
+Para el frontend se hara uso de **Bootstrap** para el diseño de las paginas.  
+Para el backend se utilizara **php**.  
+Esto con el hecho de que ya se tiene un servidor WAMP que se puede utilizar en  
+linea.  
+La interaccion con la base de datos solo se hara a travez de llamadas AJAX.  
+No usar archivos mixtos con html (*index.php* por ejemplo).  
+  
+# Base de datos  
+Para el manejador de base de datos se usara **mysql**.  
+Esto con el hecho de que ya se tiene un servidor WAMP que se puede utilizar en  
+linea.  
+  
 # Directorios  
 Cada directorio sera especifico para ciertos trabajos.  
 * db -> Scripts de base de datos.  
@@ -123,31 +138,25 @@ El repositorio para llevar a cabo el proyecto de Atencion conjunta mediante
 Inteligencia artificial y el robot NAO para niños con TEA.  
 ## Porque no puedo hacer **push**?  
 Estas en la rama de master?  
-<pre>  
 -> Si  
-	**CON UN DEMONIO NO HAGAN PUSH A MASTER!** Hagan  
-</pre>  
+    **CON UN DEMONIO NO HAGAN PUSH A MASTER!** Hagan  
 ```sh  
 git checkout <otra-rama>  
 git merge master  
 ```  
-<pre>  
-	Y despues pueden hacer el **push** a la rama distinta.  
+    Y despues pueden hacer el **push** a la rama distinta.  
 -> No  
-	Ya eres un colaborador en el repositorio?  
-	-> Si  
-		Haz  
-</pre>  
+    Ya eres un colaborador en el repositorio?  
+    -> Si  
+        Haz  
 ```sh  
 git pull  
 ```  
-<pre>  
-		Lee los mensajes de error (si salen), arregla los conflictos de  
-		merge y vulve a hacer push.  
-	-> No  
-		Envia/Pide al administrador derechos de edicion (enviando tu  
-		usuario  de github).  
-</pre>  
+        Lee los mensajes de error (si salen), arregla los conflictos de  
+        merge y vulve a hacer push.  
+    -> No  
+        Envia/Pide al administrador derechos de edicion (enviando tu usuario  
+        de github).  
 ## Pasare la materia?  
 Primero colabora en los trabajos a realizar y luego te preguntas eso.  
 En si para comprobar su contribucion (si el profesor lo pide) se le pueden  
