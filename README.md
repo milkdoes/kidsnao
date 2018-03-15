@@ -140,7 +140,7 @@ El repositorio para llevar a cabo el proyecto de Atencion conjunta mediante
 Inteligencia artificial y el robot NAO para niños con TEA.
 
 ## Porque no puedo hacer **push**?
-Estas en la rama de master?
+Estas en la rama de master?\
 -> Si\
 &emsp;**CON UN DEMONIO NO HAGAN PUSH A MASTER!** Hagan
 
@@ -149,10 +149,10 @@ git checkout <otra-rama>
 git merge master
 ```
 
-&emsp;Y despues pueden hacer el **push** a la rama distinta.
--> No
-&emsp;Ya eres un colaborador en el repositorio?
-&emsp;--> Si
+&emsp;Y despues pueden hacer el **push** a la rama distinta.\
+-> No\
+&emsp;Ya eres un colaborador en el repositorio?\
+&emsp;--> Si\
 &emsp;&emsp;Haz
 ```sh
 git pull
