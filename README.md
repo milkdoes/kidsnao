@@ -31,6 +31,7 @@
 
 # Integrantes
 **Serie A Grupo B/2**
+
 | # control | Nombre                           | Correo Institucional                 | Rol          | Usuario en github |
 | --------- | -------------------------------- | ------------------------------------ | ------------ | ----------------- |
 | 0         | Camacho Hector                   | hector.camacho@tectijuana.edu.mx     | Documentador | hectorcave        |
