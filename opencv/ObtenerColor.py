@@ -16,6 +16,9 @@ rutaImagen = ""
 if (len(sys.argv) >= 2):
     rutaImagen = sys.argv[1]
 
+# "CONSTANTES".
+CANTIDAD_CLUSTERS = 5
+
 # GLOBALES.
 posicionMayor = 0
 valoresRgbMayoritarios = [0, 0, 0]
@@ -82,7 +85,8 @@ def main():
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
         img = img.reshape((img.shape[0] * img.shape[1], 3))  # represent as row*column,channel number
-        clt = KMeans(n_clusters=5)  # cluster number
+        global CANTIDAD_CLUSTERS
+        clt = KMeans(n_clusters=CANTIDAD_CLUSTERS)  # cluster number
         clt.fit(img)
 
         hist = find_histogram(clt)
@@ -100,5 +104,9 @@ def main():
 
 
 # Llamar a main.
+# Descomentar para depurar.
+"""
 valoresRgb = main()
 print(json.dumps({"valoresRgb": valoresRgbMayoritarios.tolist()}))
+"""
+main()
