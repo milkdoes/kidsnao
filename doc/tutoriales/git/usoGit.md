@@ -56,6 +56,14 @@ cd ..
 
 Escribir dentro del archivo si asi se guste.
 
+## Ajustar credenciales
+Antes de continuar, git ocupa datos del usuario para poder cometer los cambios.
+Para esto se usa (en la consola de git)
+```sh
+git config --global user.email "correoDeGit@dominio.com"
+git config --global user.name "NombreParaCometer"
+```
+
 ## Revisando que cambios hiciste
 Se usa
 ```sh
