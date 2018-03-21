@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.1" uuid="imagerecoe-a9534a">
+ <names>
+  <name lang="en_US">ImageRecognition</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">simple example on packaging the image recognition database in your app.</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="Main">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.1.3.3"/>
+  <robotRequirement/>
+ </requirements>
+</package>
