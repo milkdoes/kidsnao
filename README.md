@@ -40,7 +40,7 @@
 | 14212044  | Montoya Heredia Victor Jehovany  | victor.montoya@tectijuana.edu.mx     | Documentador | jehovany2010      |
 | 13211483  | Morales Bueno Damaris Eleanne    | damaris.morales17@tectijuana.edu.mx  | Diseñador    | DEleanne          |
 | 13211447  | Navarro Mancillas Guillermo      | guillermo.navarro@tectijuana.edu.mx  | Programador  | guille1194        |
-| 11211238  | Ochoa Miguel Angel               | @tectijuana.edu.mx                   | Diseñador    | miguelangelochoa  |
+| 11211238  | Ochoa Miguel Angel               | miguel.ochoa18@tectijuana.edu.mx     | Diseñador    | miguelangelochoa  |
 | 13210359  | Ortega Garcia Alonso             | alonso.ortega17@tectijuana.edu.mx    | Diseñador    | alonsoitt         |
 | 13211398  | Perez Castellanos Alma Karen     | alma.perez16@tectijuana.edu.mx       | Documentador | karen1321         |
 | 13211137  | Ramirez Vazquez Luis Fernando    | luis.ramirez@tectijuana.edu.mx       | Programador  | ramirez-luis      |
