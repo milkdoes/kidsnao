@@ -19,9 +19,10 @@
 		* [Revisando que cambios hiciste](#revisando-que-cambios-hiciste)
 		* [Subiendo cambios](#subiendo-cambios)
 		* [Extra](#extra)
+* [Documentación](#documentación)
 * [Pagina web](#pagina-web)
 * [Base de datos](#base-de-datos)
-* [Directorios](#directorios)
+* [Directorios y Ramams de Git](#directorios-y-ramams-de-git)
 * [Preguntas tal vez frecuentes (FAQ)](#preguntas-tal-vez-frecuentes-faq)
 	* [Que es esto?](#que-es-esto)
 	* [Porque no puedo hacer **push**?](#porque-no-puedo-hacer-push)
@@ -111,20 +112,26 @@ reset
 ```
 Esto especialmente si vas a empujar cambios al servidor en la nube.
 
+# Documentación
+Utilizar archivos con extension **.md** o **pdf** para documentacion a
+realizar. O latex compilado a **pdf**.
+Por favor solo utilizar archivos de texto para documentar.\
+Con esto, no utilizar archivos de **Microsoft Office** (Word, Excel, etcetera)
+o de otro formato propietario aparte de **pdf**.\
+Esto con el fin de poder ver todos los archivos en la pagina de github sin
+tener que descargarlos.
+
 # Pagina web
-Para el frontend se hara uso de **Bootstrap** para el diseño de las paginas.
-Para el backend se utilizara **php**.\
-Esto con el hecho de que ya se tiene un servidor WAMP que se puede utilizar en
-linea.\
-La interaccion con la base de datos solo se hara a travez de llamadas AJAX.
-No usar archivos mixtos con html (*index.php* por ejemplo).
+Por falta de capacidad humana y el hecho de que no es vital para la realizacion
+del proyecto, no hay existencia de pagina web. Por favor no dar mas tiempo de
+desarrollo en este modulo.
 
 # Base de datos
 Para el manejador de base de datos se usara **mysql**.\
 Esto con el hecho de que ya se tiene un servidor WAMP que se puede utilizar en
 linea.
 
-# Directorios
+# Directorios y Ramams de Git
 Cada directorio sera especifico para ciertos trabajos.
 * db -> Scripts de base de datos.
 * doc -> Documentacion de tareas a realizar y trabajos a subir/entregados para el sitio de inteligencia artificial.
@@ -132,7 +139,6 @@ Cada directorio sera especifico para ciertos trabajos.
 * opencv -> Archivos con los cuales se llevaran a cabo las tareas a realizar con opencv (en nuestro equipo tenemos reconocimiento de color, por ejemplo).
 * req -> Scripts/Instrucciones a ejecutar para tener un sistema de desarrollo similar a lo que los demas tienen.
 * test -> Pruebas con archivos distintos con los cuales no sabes si pueden ser utiles o no, asi que los dejas aqui y los pruebas aqui. Puede quedarse vacio.
-* web -> Archivos de la pagina web a realizar. Crear un vinculo simbolico a este directorio y dejenlo en la raiz de su servidor amp (htdocs, www, etcetera) para poder seguir editando y no tener que copiar los archivos de vuelta. Inclusive para no hacer la ruta de **localhost** mas larga.
 
 # Preguntas tal vez frecuentes (FAQ)
 ## Que es esto?
@@ -163,6 +169,7 @@ merge y vulve a hacer push.\
 &emsp;--> No\
 &emsp;&emsp;Envia/Pide al administrador derechos de edicion (enviando tu usuario
 de github).
+
 ## Pasare la materia?
 Primero colabora en los trabajos a realizar y luego te preguntas eso.\
 En si para comprobar su contribucion (si el profesor lo pide) se le pueden
