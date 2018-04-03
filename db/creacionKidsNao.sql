@@ -60,3 +60,18 @@ CREATE TABLE IF NOT EXISTS sesion_involucrado(
 	, CONSTRAINT FK_Involucrado_SesionInvolucrado FOREIGN KEY (Id_involucrado)
 	REFERENCES involucrado(Id_involucrado)
 );
+
+CREATE TABLE IF NOT EXISTS genero_musical(
+	Id_genero_musical BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT
+	, Nombre VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS infante_genero_musical(
+	Id_infante BIGINT NOT NULL
+	, Id_genero_musical BIGINT NOT NULL
+	, PorcentajeGusto TINYINT NOT NULL DEFAULT 0
+	, CONSTRAINT FK_Infante_InfanteGeneroMusical FOREIGN KEY (Id_infante)
+	REFERENCES infante(Id_infante)
+	, CONSTRAINT FK_GeneroMusical_InfanteGeneroMusical FOREIGN KEY (Id_genero_musical)
+	REFERENCES genero_musical(Id_genero_musical)
+);
