@@ -6,7 +6,8 @@
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
-        <File name="World_Relaxation_Yoga_Music_-_Embrace_The_Moment_m" src="behavior_1/World_Relaxation_Yoga_Music_-_Embrace_The_Moment_m.wav" />
+        <File name="World_Relaxation_Yoga_Music" src="behavior_1/World_Relaxation_Yoga_Music.mp3" />
+        <File name="World_Relaxation_Yoga_Music" src="behavior_1/World_Relaxation_Yoga_Music.wav" />
     </Resources>
     <Topics />
     <IgnoredPaths />
