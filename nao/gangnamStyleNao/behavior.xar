@@ -41,7 +41,7 @@
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                                 <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-                                                <Timeline enable="1" fps="15" start_frame="1" end_frame="426" size="426">
+                                                <Timeline enable="1" fps="10" start_frame="1" end_frame="426" size="426">
                                                     <BehaviorLayer name="Gangnam Staïle">
                                                         <BehaviorKeyframe name="keyframe1" index="1">
                                                             <Diagram>
@@ -1839,7 +1839,7 @@ class MyClass(GeneratedClass):
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                                 <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-                                                <Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="25">
+                                                <Timeline enable="1" fps="10" start_frame="1" end_frame="-1" size="25">
                                                     <ActuatorList model="">
                                                         <ActuatorCurve name="value" actuator="HeadPitch" recordable="1" mute="0" unit="0">
                                                             <Key frame="25" value="-22.5027" />
@@ -1933,7 +1933,7 @@ class MyClass(GeneratedClass):
                                                 <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" />
                                                 <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" />
                                                 <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" />
-                                                <Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="25">
+                                                <Timeline enable="1" fps="10" start_frame="1" end_frame="-1" size="25">
                                                     <BehaviorLayer name="behavior_layer1">
                                                         <BehaviorKeyframe name="keyframe1" index="1">
                                                             <Diagram />
@@ -2098,7 +2098,7 @@ class MyClass(GeneratedClass):
                                                     <Choice value="Stand" />
                                                     <Choice value="StandZero" />
                                                 </Parameter>
-                                                <Parameter name="Speed (%)" inherits_from_parent="0" content_type="1" value="80" default_value="80" min="0" max="100" tooltip="Speed to go to the posture." id="7" />
+                                                <Parameter name="Speed (%)" inherits_from_parent="0" content_type="1" value="50" default_value="80" min="0" max="100" tooltip="Speed to go to the posture." id="7" />
                                                 <Parameter name="Maximum of tries" inherits_from_parent="1" content_type="1" value="3" default_value="3" min="0" max="10" tooltip="The maximum number of fails of go to posture before stimulating the failure output." id="8" />
                                                 <Resource name="All motors" type="Lock" timeout="0" />
                                                 <Resource name="Stiffness" type="Lock" timeout="0" />
