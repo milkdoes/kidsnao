@@ -36,8 +36,8 @@
 
 | # control | Nombre                           | Correo Institucional                 | Rol          | Usuario en github |
 | --------- | -------------------------------- | ------------------------------------ | ------------ | ----------------- |
-| 0         | Camacho Hector                   | hector.camacho@tectijuana.edu.mx     | Documentador | hectorcave        |
-| 0         | Hernandez Bocanegra Miguel Angel | miguel.hernandez@tectijuana.edu.mx   | Analista     | ISCMaiky          |
+| 15210003  | Camacho Velázquez Hector Ernesto | hector.camacho@tectijuana.edu.mx     | Documentador | hectorcave        |
+| 14211440  | Hernandez Bocanegra Miguel Angel | miguel.hernandez@tectijuana.edu.mx   | Analista     | ISCMaiky          |
 | 13211451  | Mendoza Muñoz Adrian             | adrian.mendoza@tectijuana.edu.mx     | Analista     | 4dri4n            |
 | 14212044  | Montoya Heredia Victor Jehovany  | victor.montoya@tectijuana.edu.mx     | Documentador | jehovany2010      |
 | 13211483  | Morales Bueno Damaris Eleanne    | damaris.morales17@tectijuana.edu.mx  | Diseñador    | DEleanne          |
